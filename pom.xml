@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>3.1.6-SNAPSHOT</version>
+  <version>3.1.7-SNAPSHOT</version>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -345,6 +345,38 @@
 <!--      </snapshots>-->
 <!--    </pluginRepository>-->
 <!--  </pluginRepositories>-->
+  <repositories>
+    <repository>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>central</id>
+      <name>libra-maven-release-virtual</name>
+      <url>https://tomjfrog.jfrog.io/artifactory/libra-maven-release-virtual</url>
+    </repository>
+    <repository>
+      <snapshots />
+      <id>snapshots</id>
+      <name>libra-maven-snapshot-virtual</name>
+      <url>https://tomjfrog.jfrog.io/artifactory/libra-maven-snapshot-virtual</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>central</id>
+      <name>libra-maven-release-virtual</name>
+      <url>https://tomjfrog.jfrog.io/artifactory/libra-maven-release-virtual</url>
+    </pluginRepository>
+    <pluginRepository>
+      <snapshots />
+      <id>snapshots</id>
+      <name>libra-maven-snapshot-virtual</name>
+      <url>https://tomjfrog.jfrog.io/artifactory/libra-maven-snapshot-virtual</url>
+    </pluginRepository>
+  </pluginRepositories>
 
   <profiles>
     <profile>
