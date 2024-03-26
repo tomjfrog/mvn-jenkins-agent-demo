@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>3.1.7-RELEASE</version>
+  <version>3.1.7</version>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -308,43 +308,6 @@
     </license>
   </licenses>
 
-<!--  <repositories>-->
-<!--    <repository>-->
-<!--      <id>spring-snapshots</id>-->
-<!--      <name>Spring Snapshots</name>-->
-<!--      <url>https://repo.spring.io/snapshot</url>-->
-<!--      <snapshots>-->
-<!--        <enabled>true</enabled>-->
-<!--      </snapshots>-->
-<!--    </repository>-->
-<!--    <repository>-->
-<!--      <id>spring-milestones</id>-->
-<!--      <name>Spring Milestones</name>-->
-<!--      <url>https://repo.spring.io/milestone</url>-->
-<!--      <snapshots>-->
-<!--        <enabled>false</enabled>-->
-<!--      </snapshots>-->
-<!--    </repository>-->
-<!--  </repositories>-->
-
-<!--  <pluginRepositories>-->
-<!--    <pluginRepository>-->
-<!--      <id>spring-snapshots</id>-->
-<!--      <name>Spring Snapshots</name>-->
-<!--      <url>https://repo.spring.io/snapshot</url>-->
-<!--      <snapshots>-->
-<!--        <enabled>true</enabled>-->
-<!--      </snapshots>-->
-<!--    </pluginRepository>-->
-<!--    <pluginRepository>-->
-<!--      <id>spring-milestones</id>-->
-<!--      <name>Spring Milestones</name>-->
-<!--      <url>https://repo.spring.io/milestone</url>-->
-<!--      <snapshots>-->
-<!--        <enabled>false</enabled>-->
-<!--      </snapshots>-->
-<!--    </pluginRepository>-->
-<!--  </pluginRepositories>-->
   <repositories>
     <repository>
       <snapshots>
