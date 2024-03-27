@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.springframework.samples</groupId>
   <artifactId>spring-petclinic</artifactId>
-  <version>3.1.7.1</version>
+  <version>3.1.8-SNAPSHOT</version>
 
   <parent>
     <groupId>org.springframework.boot</groupId>
@@ -318,7 +318,9 @@
       <url>https://tomjfrog.jfrog.io/artifactory/libra-maven-release-virtual</url>
     </repository>
     <repository>
-      <snapshots />
+      <snapshots>
+        <enabled>true</enabled>
+      </snapshots>
       <id>snapshots</id>
       <name>libra-maven-snapshot-virtual</name>
       <url>https://tomjfrog.jfrog.io/artifactory/libra-maven-snapshot-virtual</url>
