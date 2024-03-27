@@ -342,6 +342,18 @@
       <url>https://tomjfrog.jfrog.io/artifactory/libra-maven-snapshot-virtual</url>
     </pluginRepository>
   </pluginRepositories>
+  <distributionManagement>
+    <repository>
+      <id>central</id>
+      <name>artifactory-release</name>
+      <url>https://tomjfrog.jfrog.io/artifactory/libra-maven-release-virtual</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <name>libra-maven-snapshot-virtual</name>
+      <url>https://tomjfrog.jfrog.io/artifactory/libra-maven-snapshot-virtual</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <profiles>
     <profile>
